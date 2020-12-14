@@ -14,7 +14,8 @@
     "samplePercent": 25
   },
   "gui_template": "src/gui2.html",
-  "task_location": "workspace_tasks",
+  "task_location": "application_sessions",
+  "isolate": true,
   "icon": "https://img.icons8.com/fluent/96/000000/combo-chart.png",
   "icon_background": "#FFFFFF",
   "intergrated_into": ["image_annotation_tool"]
