@@ -21,5 +21,6 @@
     "context_root": "Report"
   },
   "icon": "https://img.icons8.com/fluent/96/000000/combo-chart.png",
-  "icon_background": "#FFFFFF"
+  "icon_background": "#FFFFFF",
+  "intergrated_into": ["image_annotation_tool"]
 }
