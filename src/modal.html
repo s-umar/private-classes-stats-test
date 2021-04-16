@@ -1,12 +1,6 @@
 <div>
-<!--    <sly-field title="Input project">-->
-<!--        <el-select v-model="state.projectId" placeholder="Select">-->
-<!--            <el-option :key="195" :label="lemons_annotated" :value="195"/>-->
-<!--        </el-select>-->
-<!--    </sly-field>-->
-    <h1>v0.2</h1>
-    <sly-field title="Sample (%)"
-               description="Stats will be calculated only for the defined random sample of images (%)">
-        <el-slider v-model="state.samplePercent" :min="1" show-input></el-slider>
+    <sly-field title="Length of random string"
+               description="Choose length of generated strings before running app">
+        <el-input-number v-model="state.length" :min="3" :max="10"></el-input-number>
     </sly-field>
 </div>
