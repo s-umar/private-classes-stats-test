@@ -1,22 +1,19 @@
 {
-  "name": "Test public Classes stats for images",
+  "name": "Private Hello world",
   "type": "app",
   "categories": [
-    "report",
-    "images",
-    "data exploration"
+    "development"
   ],
-  "description": "Detailed statistics for all classes in images project",
+  "description": "Working demo, use it as a template for your custom apps",
   "docker_image": "supervisely/base-py-sdk:6",
-  "main_script": "src/main_script2.py",
+  "main_script": "src/my_main_script.py",
   "modal_template": "src/modal.html",
   "modal_template_state": {
-    "samplePercent": 25
+    "length": 5
   },
-  "gui_template": "src/gui2.html",
+  "gui_template": "src/gui.html",
   "task_location": "application_sessions",
   "isolate": true,
-  "icon": "https://img.icons8.com/fluent/96/000000/combo-chart.png",
-  "icon_background": "#FFFFFF",
-  "integrated_into": ["image_annotation_tool"]
+  "icon": "https://img.icons8.com/fluent/96/000000/source-code.png",
+  "icon_background": "#FFFFFF"
 }
